@@ -216,6 +216,16 @@ img{
         transform: translateX(0);
     }
 }
+@keyframes fadeInTop{
+    0%{
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 .section-title{
     padding: 0 15px;
     flex: 0 0 100%;
@@ -513,6 +523,7 @@ About Section ------*/
 }
 .about-section .tab-content.active{
     display: block;
+    animation: fadeInTop .5s ease;
 }
 .about-section .skills{
     padding: 0 0 40px;
