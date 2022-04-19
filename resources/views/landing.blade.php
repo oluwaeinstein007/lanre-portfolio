@@ -290,6 +290,86 @@
                 </div>
         </section>
 
+        <!-- servive section  -->
+        <section class="service-section section">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2 data-heading="Services">What I do</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- service item start -->
+                    <div class="service-item">
+                        <div class="service-item-inner outer-shadow">
+                            <div class="icon inner-shadow">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nesciunt eos fuga. Provident perspiciatis quaerat, ab rem officia totam, reiciendis dolore consequatur dignissimos quam harum hic sapiente cupiditate suscipit iure.</p>
+                        </div>
+                    </div>
+                    <!-- service item ends -->
+                    <!-- service item start -->
+                    <div class="service-item">
+                        <div class="service-item-inner outer-shadow">
+                            <div class="icon inner-shadow">
+                                <i class="fas fa-bullhorn"></i>
+                            </div>
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nesciunt eos fuga. Provident perspiciatis quaerat, ab rem officia totam, reiciendis dolore consequatur dignissimos quam harum hic sapiente cupiditate suscipit iure.</p>
+                        </div>
+                    </div>
+                    <!-- service item ends -->
+                    <!-- service item start -->
+                    <div class="service-item">
+                        <div class="service-item-inner outer-shadow">
+                            <div class="icon inner-shadow">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nesciunt eos fuga. Provident perspiciatis quaerat, ab rem officia totam, reiciendis dolore consequatur dignissimos quam harum hic sapiente cupiditate suscipit iure.</p>
+                        </div>
+                    </div>
+                    <!-- service item ends -->
+                    <!-- service item start -->
+                    <div class="service-item">
+                        <div class="service-item-inner outer-shadow">
+                            <div class="icon inner-shadow">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nesciunt eos fuga. Provident perspiciatis quaerat, ab rem officia totam, reiciendis dolore consequatur dignissimos quam harum hic sapiente cupiditate suscipit iure.</p>
+                        </div>
+                    </div>
+                    <!-- service item ends -->
+                    <!-- service item start -->
+                    <div class="service-item">
+                        <div class="service-item-inner outer-shadow">
+                            <div class="icon inner-shadow">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nesciunt eos fuga. Provident perspiciatis quaerat, ab rem officia totam, reiciendis dolore consequatur dignissimos quam harum hic sapiente cupiditate suscipit iure.</p>
+                        </div>
+                    </div>
+                    <!-- service item ends -->
+                    <!-- service item start -->
+                    <div class="service-item">
+                        <div class="service-item-inner outer-shadow">
+                            <div class="icon inner-shadow">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nesciunt eos fuga. Provident perspiciatis quaerat, ab rem officia totam, reiciendis dolore consequatur dignissimos quam harum hic sapiente cupiditate suscipit iure.</p>
+                        </div>
+                    </div>
+                    <!-- service item ends -->
+                    
+                </div>
+            </div>
+        </section>
+
        
 
 <script src="/resources/js/main.js"></script>
