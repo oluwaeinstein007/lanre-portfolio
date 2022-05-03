@@ -616,7 +616,67 @@
                 <!-- portfolio items end -->
             </div>
         </section>
-        <!-- Portfoli section ends -->
+        <!-- Portfolio section ends -->
+
+        <!-- Testimonial section starts -->
+        <section class="testimonial-section section">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                    <h2 data-heading="testimonial">Clients Says</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="testi-box">
+                        <div class="testi-slider outer-shadow">
+                            <div class="testi-slider-container">
+                                <!-- testi item start -->
+                                <div class="testi-item active">
+                                    <i class="fas fa-quote-left left"></i>
+                                    <i class="fas fa-quote-right right"></i>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nesciunt totam consequuntur fuga dolorum sit accusantium optio minus doloremque iusto, tempora culpa nobis ducimus asperiores sapiente reprehenderit similique ut quis.</p>
+                                    <img src="../pictures/propix.jpeg" alt="testimonial">
+                                    <span>Emmanuel Eleruja</span>
+                                </div>
+                                <!-- testi item end -->
+                                <!-- testi item start -->
+                                <div class="testi-item">
+                                    <i class="fas fa-quote-left left"></i>
+                                    <i class="fas fa-quote-right right"></i>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nesciunt totam consequuntur fuga dolorum sit accusantium optio minus doloremque iusto, tempora culpa nobis ducimus asperiores sapiente reprehenderit similique ut quis.</p>
+                                    <img src="../pictures/propix.jpeg" alt="testimonial">
+                                    <span>Emmanuel Momoh</span>
+                                </div>
+                                <!-- testi item end -->
+                                <!-- testi item start -->
+                                <div class="testi-item ">
+                                    <i class="fas fa-quote-left left"></i>
+                                    <i class="fas fa-quote-right right"></i>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nesciunt totam consequuntur fuga dolorum sit accusantium optio minus doloremque iusto, tempora culpa nobis ducimus asperiores sapiente reprehenderit similique ut quis.</p>
+                                    <img src="../pictures/propix.jpeg" alt="testimonial">
+                                    <span>Segun Akanbi</span>
+                                </div>
+                                <!-- testi item end -->
+                                <!-- testi item start -->
+                                <div class="testi-item">
+                                    <i class="fas fa-quote-left left"></i>
+                                    <i class="fas fa-quote-right right"></i>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nesciunt totam consequuntur fuga dolorum sit accusantium optio minus doloremque iusto, tempora culpa nobis ducimus asperiores sapiente reprehenderit similique ut quis.</p>
+                                    <img src="../pictures/propix.jpeg" alt="testimonial">
+                                    <span>Elon Musk</span>
+                                </div>
+                                <!-- testi item end -->
+                            </div>
+                        </div>
+                        <div class="testi-slider-nav">
+                            <span class="prev outer-shadow hover-in-shadow"><i class="fas fa-angle-left"></i></span>
+                            <span class="next outer-shadow hover-in-shadow"><i class="fas fa-angle-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonial section ends -->
 
        <!-- Portfoli popup start -->
        <div class="pp portfolio-popup">
