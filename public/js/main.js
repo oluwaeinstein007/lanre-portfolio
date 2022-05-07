@@ -1,5 +1,76 @@
 // const loader = require("sass-loader");
 
+/*-------- navigation menu --------*/
+    (() =>{
+        const hamburgerBtn = document.querySelector(".hamburger-btn"),
+        navMenu = document.querySelector(".nav-menu"),
+        closeNavBtn = navMenu.querySelector(".close-nav-menu");
+
+        hamburgerBtn.addEventListener("click", showNavMenu);
+        closeNavBtn.addEventListener("click", hideNavMenu);
+
+        function showNavMenu(){
+            navMenu.classList.add("open");
+            bodyScrollingToggle();
+        }
+
+        function hideNavMenu(){
+            navMenu.classList.remove("open");
+            fadeOutEffect();
+            bodyScrollingToggle();
+        }
+
+        function fadeOutEffect(){
+            document.querySelector(".fade-out-effect").classList.add("active");
+            setTimeout(()=>{
+                document.querySelector(".fade-out-effect").classList.remove("active")
+            },300)
+        }
+
+        //attach an event handler to document
+        document.addEventListener("click", (event)=>{
+            if(event.target.classList.contains("link-item")){
+                // make sure event.target.hash has a value before overidding default behavior
+                if(event.target.hash !== ""){
+                    //prevent default anchor click behavior
+                    event.preventDefault();
+                    const hash = event.target.hash;
+                    //deactivate existing active section
+                    document.querySelector(".section.active").classList.add("hide");
+                    document.querySelector(".section.active").classList.remove("active");
+                    //activate new section
+                    document.querySelector(hash).classList.add("active");
+                    document.querySelector(hash).classList.remove("hide");
+                    //deactivate existing active navigation menu link-item
+                    navMenu.querySelector(".active").classList.add("outer-shadow","hover-in-shadow");
+                    navMenu.querySelector(".active").classList.remove("active","inner-shadow");
+                    
+                    if(navMenu.classList.contains("open")){
+                        //activate new navigation menu link-item
+                        event.target.classList.add("active","inner-shadow");
+                        event.target.classList.remove("outer-shadow","hover-in-shadow");
+                        //hide navigation menu
+                        hideNavMenu();
+                    }else{
+                        let navItems = navMenu.querySelectorAll(".link-item");
+                        navItems.forEach((item) =>{
+                            if(hash === item.hash){
+                                //activate new navigation menu link-item
+                                item.classList.add("active","inner-shadow");
+                                item.classList.remove("outer-shadow","hover-in-shadow");
+                            }
+                        })
+                        fadeOutEffect();
+                    }
+                    //add # to url
+                    window.location.hash = hash;
+                }
+            }
+        })
+
+    })();
+
+
     /*-------about section tabs------*/
     (()=>{
         const aboutSection = document.querySelector(".about-section"),
@@ -209,3 +280,60 @@
 
 
     })();
+
+    /*-------- hide all sections except active --------*/
+
+    (() =>{
+        const sections = document.querySelectorAll(".section");
+        sections.forEach((section) =>{
+            if(!section.classList.contains("active")){
+                section.classList.add("hide");
+            }
+        })
+    })();
+
+     /*-------- toggle style switcher --------*/
+
+     const styleSwitcherToggler = document.querySelector(".style-switcher-toggler");
+
+     styleSwitcherToggler.addEventListener("click", () =>{
+         document.querySelector(".style-switcher").classList.toggle("open");
+     })
+
+     /*-------- hide style switcher on scroll --------*/
+     window.addEventListener("scroll", ()=>{
+         if(document.querySelector(".style-switcher").classList.contains("open")){
+             document.querySelector(".style-switcher").classList.remove("open");
+         }
+     })
+
+     /*-------- theme colors --------*/
+
+    const alternateStyles = document.querySelectorAll(".alternate-style");
+     function setActiveStyle(color){
+         alternateStyles.forEach((style) =>{
+             if(color === style.getAttribute("title")){
+                 style.removeAttribute("disabled");
+             }else{
+                style.setAttribute("disabled","true");
+             }
+         })
+     }
+
+     /*-------- theme light/dark mode --------*/
+     const dayNight = document.querySelector(".day-night");
+
+     dayNight.addEventListener("click", () => {
+        dayNight.querySelector("i").classList.toggle("fa-sun");
+        dayNight.querySelector("i").classList.toggle("fa-moon");
+        document.body.classList.toggle("dark");
+     })
+
+
+     window.addEventListener("load", ()=>{
+         if(document.body.classList.contains("dark")){
+             dayNight.querySelector("i").classList.add("fa-sun");
+         }else{
+            dayNight.querySelector("i").classList.add("fa-moon");
+         }
+     })

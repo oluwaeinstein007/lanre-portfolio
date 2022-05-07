@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Home</title>
+        <title>Lanre's Portfolio</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -13,18 +13,25 @@
         
 
                     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+                    
+                    <!-- style switcher css -->
+                    <link href="{{ asset('css/skins/color-1.css') }}" rel="stylesheet" type="text/css" class="alternate-style" title="color-1">
+                    <link href="{{ asset('css/skins/color-2.css') }}" rel="stylesheet" type="text/css" class="alternate-style" title="color-2" disabled>
+                    <link href="{{ asset('css/skins/color-3.css') }}" rel="stylesheet" type="text/css" class="alternate-style" title="color-3" disabled>
+                    <link href="{{ asset('css/skins/color-4.css') }}" rel="stylesheet" type="text/css" class="alternate-style" title="color-4" disabled>
+                    <link href="{{ asset('css/skins/color-5.css') }}" rel="stylesheet" type="text/css" class="alternate-style" title="color-5" disabled>
                     <!-- <link href="/css/app/.css" rel="stylesheet"> -->
 
                     <script src="https://kit.fontawesome.com/7f86e9340c.js"></script>
                     <script src="{{ asset('js/main.js') }}" defer></script>
                     <!-- <script src="/resources/js/main.js"></script> -->
         <style>
-            body {
+            /* body {
                 font-family: 'Nunito', sans-serif;
-            }
+            } */
         </style>
     </head>
-    <body>
+    <body class="dark">
         <!--- Header -->
         <header class="header">
             <div class="container">
@@ -47,20 +54,22 @@
             <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
             <div class="nav-menu-inner">
                 <ul>
-                    <li><a href="{{ url('/') }}" class="inner-shadow active">Home</a></li>
-                    <li><a href="{{ url('/about') }}" class="outer-shadow hover-in-shadow">About</a></li>
-                    <li><a href="{{ url('/services') }}" class="outer-shadow hover-in-shadow">Services</a></li>
-                    <li><a href="{{ url('/services') }}" class="outer-shadow hover-in-shadow">Portfolio</a></li>
-                    <li><a href="{{ url('/services') }}" class="outer-shadow hover-in-shadow">Testimonial</a></li>
-                    <li><a href="{{ url('/contact') }}" class="outer-shadow hover-in-shadow">Contact</a></li>
+                    <li><a href="#home" class="link-item inner-shadow active">Home</a></li>
+                    <li><a href="#about" class="link-item outer-shadow hover-in-shadow">About</a></li>
+                    <li><a href="#services" class="link-item outer-shadow hover-in-shadow">Services</a></li>
+                    <li><a href="#portfolio" class="link-item outer-shadow hover-in-shadow">Portfolio</a></li>
+                    <li><a href="#testimonial" class="link-item outer-shadow hover-in-shadow">Testimonial</a></li>
+                    <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">Contact</a></li>
                 </ul>
             </div>
 
             <p class="copyright-text">&copy; 2022 L'Phi Hub</p>
         </nav>
+        <div class="fade-out-effect"></div>
+        <!--- Navigation menu end -->
 
         <!--- Main Content -->
-        <section class="home-section section">
+        <section class="home-section section active" id="home">
             <!-- effect wrap start -->
             <div class="effect-wrap">
                 <div class="effect effect-1">
@@ -84,7 +93,7 @@
                         <p>Hello</p>
                         <h2>I'm Lanre</h2>
                         <h1>Software Developer</h1>
-                        <a href="#" class="btn-1 outer-shadow hover-in-shadow">More About Me</a>
+                        <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow">More About Me</a>
                     </div>
                     <div class="home-img">
                         <div class="img-box inner-shadow">
@@ -98,7 +107,7 @@
         </section>
 
         <!-- About Section -->
-        <section class="about-section section">
+        <section class="about-section section" id="about">
             <div class="container">
                 <div class="row">
                     <div class="section-title">
@@ -120,7 +129,7 @@
                     <div class="about-info">
                         <p><span>Hi! My name is Lanre, I am a Developer</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur nihil repellendus nulla est quae suscipit harum quo dolore modi incidunt natus, quisquam officiis iste animi tempora quas. Dignissimos, nemo unde.</p>
                         <a href="{{ asset('../pictures/cv.docx') }}" class="btn-1 outer-shadow hover-in-shadow">Download CV</a>
-                        <a href="" class="btn-1 outer-shadow hover-in-shadow">Hire Me</a>
+                        <a href="#contact" class="link-item btn-1 outer-shadow hover-in-shadow">Hire Me</a>
                     </div>
                 </div>
                 <!-- About Tabs -->
@@ -293,7 +302,7 @@
         </section>
 
         <!-- servive section  -->
-        <section class="service-section section">
+        <section class="service-section section" id="services">
             <div class="container">
                 <div class="row">
                     <div class="section-title">
@@ -373,8 +382,8 @@
         </section>
         <!-- service ends -->
 
-        <!-- Portfoli section starts -->
-        <section class="portfolio-section section">
+        <!-- Portfolio section starts -->
+        <section class="portfolio-section section" id="portfolio">
             <div class="container">
                 <div class="row">
                     <div class="section-title">
@@ -384,11 +393,11 @@
                 <!-- portfolio filter start -->
                 <div class="row">
                     <div class="portfolio-filter">
-                        <span class="filter-item outer-shadow active" data-target="all">all</span>
-                        <span class="filter-item" data-target="web-application">web application</span>
-                        <span class="filter-item" data-target="mobile-app">mobile app</span>
-                        <span class="filter-item" data-target="e-commerce">e commerce</span>
-                        <span class="filter-item" data-target="e-learning">e learning</span>
+                        <span class="filter-item outer-shadow active hover-in-shadow" data-target="all">all</span>
+                        <span class="filter-item hover-in-shadow" data-target="web-application">web application</span>
+                        <span class="filter-item hover-in-shadow" data-target="mobile-app">mobile app</span>
+                        <span class="filter-item hover-in-shadow" data-target="e-commerce">e commerce</span>
+                        <span class="filter-item hover-in-shadow" data-target="e-learning">e learning</span>
                     </div>
                 </div>
                 <!-- portfolio filter end -->
@@ -619,7 +628,7 @@
         <!-- Portfolio section ends -->
 
         <!-- Testimonial section starts -->
-        <section class="testimonial-section section">
+        <section class="testimonial-section section" id="testimonial">
             <div class="container">
                 <div class="row">
                     <div class="section-title">
@@ -679,7 +688,7 @@
         <!-- Testimonial section ends -->
 
         <!-- Contact section starts -->
-        <section class="contact-section section">
+        <section class="contact-section section" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="section-title">
@@ -794,6 +803,38 @@
            </div>
        </div>
        <!-- Portfoli popup end -->
+
+        <!-- Style switcher start -->
+
+        <div class="style-switcher outer-shadow">
+            <div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
+               <i class="fas fa-cog fa-spin"></i>
+            </div>
+            <div class="day-night s-icon outer-shadow hover-in-shadow">
+                <i class="fas"></i>
+            </div>
+            <h4>Themes</h4>
+            <div class="colors">
+               <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+               <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+               <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+               <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+               <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+            </div>
+
+
+        </div>
+        <!-- <div class="style-switcher outer-shadow">
+           
+           <div class="day-night s-icon">
+           
+           <div class="style-switcher-toggler colors s-icon outer-shadow hover-in-shadow">
+           
+           </div>
+               
+           </div>
+       </div> -->
+       <!-- Style switcher end -->
 
 
 
