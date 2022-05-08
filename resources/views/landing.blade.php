@@ -32,6 +32,14 @@
         </style>
     </head>
     <body class="dark">
+        <!--- preloader start -->
+        <div class="preloader">
+            <div class="box">
+                <div></div><div></div><div></div>
+            </div>
+        </div>
+        <!--- preloader end -->
+
         <!--- Header -->
         <header class="header">
             <div class="container">
