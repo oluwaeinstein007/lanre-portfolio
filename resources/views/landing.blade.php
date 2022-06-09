@@ -12,7 +12,8 @@
         <!-- Styles -->
         
 
-                    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+                    
+                    <link href="/css/app.css" rel="stylesheet">
                     
                     <!-- style switcher css -->
                     <link href="{{ asset('css/skins/color-1.css') }}" rel="stylesheet" type="text/css" class="alternate-style" title="color-1">
