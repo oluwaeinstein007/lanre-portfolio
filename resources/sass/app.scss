@@ -844,6 +844,7 @@ About Section ------*/
     text-transform: capitalize;
     font-size: 16px;
     transition: all .3s ease;
+    color: var(--text-black-700);
 }
 .portfolio-section .filter-item:hover:not(.active){
     opacity: 0.6;
@@ -1143,13 +1144,14 @@ About Section ------*/
     padding: 0 15px;
 }
 .testimonial-section .testi-item{
-    padding: 30px;
+    padding: 10px;
     text-align: center;
     position: relative;
 }
 .testimonial-section .testi-slider{
     border-radius: 5px;
     overflow: hidden;
+    
 }
 .testimonial-section .testi-slider-container{
     display: flex;
@@ -1177,9 +1179,11 @@ About Section ------*/
     margin: 0 0 30px;
 }
 .testimonial-section .testi-item img{
-    max-width: 70px;
+    max-width: 100px;
     display: inline-block;
     width: 100%;
+    border-radius: 50%;
+    margin-bottom: 5px;
 }
 .testimonial-section .testi-item span{
     display: block;
@@ -1278,7 +1282,7 @@ About Section ------*/
     color: var(--text-black-700);
 }
 .contact-section .input-group textarea.input-control{
-    height: 184px;
+    height: 250px;
     padding-top: 15px;
     resize: none;
 }

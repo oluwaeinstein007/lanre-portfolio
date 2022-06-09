@@ -1,6 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\NotifyEmailController;
+use Psy\TabCompletion\Matcher\FunctionsMatcher;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\Configuration;
+use App\Mail\SendEmail;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +26,8 @@ Route::get('/', function () {
 Route::get('/landing', function () {
     return view('landing');
 });
+
+Route::post('/', [NotifyEmailController::class, 'store']);
 
 //create route for landing page
 // Route::get('/', 'LandingController@index');

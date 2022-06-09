@@ -649,37 +649,37 @@
                             <div class="testi-slider-container">
                                 <!-- testi item start -->
                                 <div class="testi-item active">
+                                    <img src="../pictures/propix.jpeg" alt="testimonial">
                                     <i class="fas fa-quote-left left"></i>
                                     <i class="fas fa-quote-right right"></i>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nesciunt totam consequuntur fuga dolorum sit accusantium optio minus doloremque iusto, tempora culpa nobis ducimus asperiores sapiente reprehenderit similique ut quis.</p>
-                                    <img src="../pictures/propix.jpeg" alt="testimonial">
                                     <span>Emmanuel Eleruja</span>
                                 </div>
                                 <!-- testi item end -->
                                 <!-- testi item start -->
                                 <div class="testi-item">
+                                    <img src="../pictures/propix.jpeg" alt="testimonial">
                                     <i class="fas fa-quote-left left"></i>
                                     <i class="fas fa-quote-right right"></i>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nesciunt totam consequuntur fuga dolorum sit accusantium optio minus doloremque iusto, tempora culpa nobis ducimus asperiores sapiente reprehenderit similique ut quis.</p>
-                                    <img src="../pictures/propix.jpeg" alt="testimonial">
                                     <span>Emmanuel Momoh</span>
                                 </div>
                                 <!-- testi item end -->
                                 <!-- testi item start -->
                                 <div class="testi-item ">
+                                    <img src="../pictures/propix.jpeg" alt="testimonial">
                                     <i class="fas fa-quote-left left"></i>
                                     <i class="fas fa-quote-right right"></i>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nesciunt totam consequuntur fuga dolorum sit accusantium optio minus doloremque iusto, tempora culpa nobis ducimus asperiores sapiente reprehenderit similique ut quis.</p>
-                                    <img src="../pictures/propix.jpeg" alt="testimonial">
                                     <span>Segun Akanbi</span>
                                 </div>
                                 <!-- testi item end -->
                                 <!-- testi item start -->
                                 <div class="testi-item">
+                                    <img src="../pictures/propix.jpeg" alt="testimonial">
                                     <i class="fas fa-quote-left left"></i>
                                     <i class="fas fa-quote-right right"></i>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nesciunt totam consequuntur fuga dolorum sit accusantium optio minus doloremque iusto, tempora culpa nobis ducimus asperiores sapiente reprehenderit similique ut quis.</p>
-                                    <img src="../pictures/propix.jpeg" alt="testimonial">
                                     <span>Elon Musk</span>
                                 </div>
                                 <!-- testi item end -->
@@ -735,6 +735,7 @@
                 <div class="row">
                     <div class="contact-form">
                         <form action="" method="post">
+                        @csrf
                             <div class="row">
                                 <div class="w-50">
                                     <div class="input-group outer-shadow hover-in-shadow">
@@ -745,6 +746,9 @@
                                     </div>
                                     <div class="input-group outer-shadow hover-in-shadow">
                                         <input type="text" name="subject" placeholder="Subject" class="input-control" required>
+                                    </div>
+                                    <div class="input-group outer-shadow hover-in-shadow">
+                                        <input type="text" name="phone" placeholder="Phone Number" class="input-control" required>
                                     </div>
                                 </div>
                                 <div class="w-50">
