@@ -141,6 +141,7 @@
                         <p><span>Hi! My name is Lanre, I am a Developer</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur nihil repellendus nulla est quae suscipit harum quo dolore modi incidunt natus, quisquam officiis iste animi tempora quas. Dignissimos, nemo unde.</p>
                         <a href="{{ asset('../pictures/cv.docx') }}" class="btn-1 outer-shadow hover-in-shadow">Download CV</a>
                         <a href="#contact" class="link-item btn-1 outer-shadow hover-in-shadow">Hire Me</a>
+                        <div class="codr"><img src="../pictures/MWL.svg" alt="testimonial"></div>
                     </div>
                 </div>
                 <!-- About Tabs -->
