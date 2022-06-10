@@ -708,7 +708,7 @@
                     <!-- contact item start -->
                     <div class="contact-item">
                         <div class="contact-item-inner outer-shadow">
-                            <i class="fas fa-phone" href="tel:{08057322330}"></i>
+                            <a href="tel:{08057322330}"><i class="fas fa-phone"></i></a>
                             <span>Phone</span>
                             <p>+2348057322330</p>
                         </div>
