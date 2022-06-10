@@ -1,4 +1,7 @@
 <?php
+if (!(App::environment('local'))) {
+    URL::forceScheme('https');
+}
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NotifyEmailController;
