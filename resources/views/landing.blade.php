@@ -156,6 +156,7 @@
                 <!-- skills starts -->
                 <div class="row">
                     <div class="skills tab-content active">
+                        <div class="illustrate"><img src="../pictures/devWork.svg" alt="testimonial"></div>
                         <div class="row">
                         <!-- skill-items starts -->
                             <div class="skill-item">
@@ -226,6 +227,7 @@
                         <!-- experience start -->
                         <div class="row">
                             <div class="experience tab-content">
+                                <div class="illustrate"><img src="../pictures/expert.svg" alt="testimonial"></div>
                                 <div class="row">
                                     <div class="timeline">
                                         <div class="row">
@@ -282,6 +284,7 @@
                         <!-- education start -->
                         <div class="row">
                             <div class="education tab-content">
+                            <div class="illustrate"><img src="../pictures/Learn.svg" alt="testimonial"></div>
                                 <div class="row">
                                     <div class="timeline">
                                         <div class="row">
