@@ -129,10 +129,12 @@
                             <img src="../pictures/profile.jpeg" alt="About pix">
                         </div>
                         <div class="social-links">
-                            <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="outer-shadow hover-in-shadow"> <i class="fab fa-twitter"></i></a>
-                            <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-instagram"></i></a>
+                            <a href="https://m.facebook.com/lanre.sanni.739" target="_blank" class="outer-shadow hover-in-shadow"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/OluwaEinstein01?t=_vFS_m13tfGQ5kTYFZLDrg&s=09" target="_blank" class="outer-shadow hover-in-shadow"> <i class="fab fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/sanni-lanre-686125ba" target="_blank" class="outer-shadow hover-in-shadow"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/oluwaeinstein007" target="_blank" class="outer-shadow hover-in-shadow"><i class="fab fa-github"></i></a>
+                            <a href="https://alvo.chat/cm" target="_blank" class="outer-shadow hover-in-shadow"><i class="fab fa-whatsapp"></i></a>
+                            <a href="sms:{08057322330}?body=Hello Lanre, I have a job for you" target="_blank" class="outer-shadow hover-in-shadow"><i class="fas fa-comment"></i></a>
                         </div>
                     </div>
                     <div class="about-info">
@@ -147,6 +149,7 @@
                         <span class="tab-item outer-shadow active" data-target=".skills">Skills</span>
                         <span class="tab-item" data-target=".experience">Experience</span>
                         <span class="tab-item" data-target=".education">Education</span>
+                        <span class="tab-item" data-target=".achievement">Achievement</span>
                     </div>
                 </div>
                 <!-- About Tabs ends -->
@@ -230,10 +233,10 @@
                                             <div class="timeline-item">
                                                 <div class="timeline-item-inner outer-shadow">
                                                     <i class="fas fa-briefcase icon"></i>
-                                                    <span>Sep, 2020 - Present</span>
-                                                    <h3>Full Stack Developer</h3>
-                                                    <h4>Company name, Nigeria</h4>
-                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minima magnam distinctio quaerat fuga ad autem sapiente laboriosam odio obcaecati ullam nihil cupiditate alias quia, ducimus quae tenetur! Ullam, voluptates!</p>
+                                                    <span>March, 2022 - Present</span>
+                                                    <h3>Full Stack Web Developer</h3>
+                                                    <h4>Tramango, Nigeria</h4>
+                                                    <p>I worked at every stage of the development of Tramango OTA, from brainstorming and project planning to launch, and mainly working on the Backend of the OTA, creating the OTA API and implementing thirdparty APIs like Amadeus, Paystack, etc</p>
                                                 </div>
                                             </div>
                                             <!-- timeline item end -->
@@ -241,10 +244,10 @@
                                             <div class="timeline-item">                        
                                                 <div class="timeline-item-inner outer-shadow">
                                                     <i class="fas fa-briefcase icon"></i>
-                                                    <span>Sep, 2020 - Present</span>
-                                                    <h3>PhD. Physics</h3>
-                                                    <h4>MIT, US</h4>
-                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minima magnam distinctio quaerat fuga ad autem sapiente laboriosam odio obcaecati ullam nihil cupiditate alias quia, ducimus quae tenetur! Ullam, voluptates!</p>
+                                                    <span>Dec., 2021 - Present</span>
+                                                    <h3>Fullstack Web/Mobile Dev.</h3>
+                                                    <h4>Balaga</h4>
+                                                    <p>I led a team to develop Balaga dating app and got involed in every aspect of the development from brainstorming to launching, and mainly contributed in the Mobile App of the project</p>
                                                 </div>
                                             </div>
                                             <!-- timeline item end -->
@@ -252,10 +255,21 @@
                                             <div class="timeline-item">
                                                 <div class="timeline-item-inner outer-shadow">
                                                     <i class="fas fa-briefcase icon"></i>
-                                                    <span>Sep, 2020 - Present</span>
-                                                    <h3>BSc. Physics</h3>
-                                                    <h4>OAU, Nigeria</h4>
-                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minima magnam distinctio quaerat fuga ad autem sapiente laboriosam odio obcaecati ullam nihil cupiditate alias quia, ducimus quae tenetur! Ullam, voluptates!</p>
+                                                    <span>April, 2021 - July, 2021</span>
+                                                    <h3>Bootcamp Course Educator</h3>
+                                                    <h4>Scholar Nurture</h4>
+                                                    <p>I worked as Frontend Course Coordinator, developed React Roadmap, weekly accessments and projects</p>
+                                                </div>
+                                            </div>
+                                            <!-- timeline item end -->
+                                            <!-- timeline item start -->
+                                            <div class="timeline-item">                        
+                                                <div class="timeline-item-inner outer-shadow">
+                                                    <i class="fas fa-briefcase icon"></i>
+                                                    <span>July, 2020 - Present</span>
+                                                    <h3>Freelancing Fullstack Web/Mobile Dev.</h3>
+                                                    <h4>Al-Faruq, Nigeria. Noir labs, US. GoAhead Homes, UK</h4>
+                                                    <p>I build a complete E-Learning App with payment portal for Al Faruq college in 2020 during the lockdown, worked on the Noir lab's noirportal project, and built GoAhead Homes Web. App.</p>
                                                 </div>
                                             </div>
                                             <!-- timeline item end -->
@@ -275,10 +289,10 @@
                                             <div class="timeline-item">
                                                 <div class="timeline-item-inner outer-shadow">
                                                     <i class="fas fa-graduation-cap icon"></i>
-                                                    <span>Sep, 2020 - Present</span>
-                                                    <h3>Full Stack Developer</h3>
-                                                    <h4>Company name, Nigeria</h4>
-                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minima magnam distinctio quaerat fuga ad autem sapiente laboriosam odio obcaecati ullam nihil cupiditate alias quia, ducimus quae tenetur! Ullam, voluptates!</p>
+                                                    <span>2015 - Present</span>
+                                                    <h3>Self-taught Programming</h3>
+                                                    <h4>Youtube and Internet generally</h4>
+                                                    <p>I first got into coding in 2015 learning Java on Bucky Robert's NewBoston Youtube channel, later acing a Java course in my sophomore year in OAU, then started learning web development with Traversy media and many other youtube channels and got serious in my Tech career in 2020</p>
                                                 </div>
                                             </div>
                                             <!-- timeline item end -->
@@ -286,10 +300,10 @@
                                             <div class="timeline-item">                        
                                                 <div class="timeline-item-inner outer-shadow">
                                                     <i class="fas fa-graduation-cap icon"></i>
-                                                    <span>Sep, 2020 - Present</span>
-                                                    <h3>Senior Developer</h3>
-                                                    <h4>Company name, Nigeria</h4>
-                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minima magnam distinctio quaerat fuga ad autem sapiente laboriosam odio obcaecati ullam nihil cupiditate alias quia, ducimus quae tenetur! Ullam, voluptates!</p>
+                                                    <span>2020 - 2021</span>
+                                                    <h3>Android path, 2020. & Mobile Web, 2021.</h3>
+                                                    <h4>Google Africa Developer Scholarship</h4>
+                                                    <p>I was lucky to be part of the program twice and getting to second stage both times</p>
                                                 </div>
                                             </div>
                                             <!-- timeline item end -->
@@ -297,16 +311,74 @@
                                             <div class="timeline-item">
                                                 <div class="timeline-item-inner outer-shadow">
                                                     <i class="fas fa-graduation-cap icon"></i>
-                                                    <span>Sep, 2020 - Present</span>
-                                                    <h3>Software Developer</h3>
-                                                    <h4>Company name, Nigeria</h4>
-                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minima magnam distinctio quaerat fuga ad autem sapiente laboriosam odio obcaecati ullam nihil cupiditate alias quia, ducimus quae tenetur! Ullam, voluptates!</p>
+                                                    <span>2016 - 2021</span>
+                                                    <h3>BSc. Engineering Physics</h3>
+                                                    <h4>Obafemi Awolowo University, Nigeria</h4>
+                                                    <p>I studied Engineering Physics, a 4 years course, but specialized in theoretical physics, getting trained in Nuclear physics, Astrophysics, Mathematical physics, Material Science, Solidstates, Optics, Relativity, Quantum mechanics, Electromagnetism and Thermodynamics</p>
+                                                    <a href="{{ asset('../pictures/cv.docx') }}" class="btn-1 outer-shadow hover-in-shadow">Download My Thesis</a>
+                                                </div>
+                                            </div> 
+                                            </div></div></div></div>
+                                            <!-- timeline item end -->
+                                       
+                               
+                        <!-- education ends -->
+
+                        <!-- achievement start -->
+                        <div class="row">
+                            <div class="achievement tab-content">
+                                <div class="row">
+                                    <div class="timeline">
+                                        <div class="row">
+                                            <!-- timeline item start -->
+                                            <div class="timeline-item">
+                                                <div class="timeline-item-inner outer-shadow">
+                                                    <i class="fas fa-trophy icon"></i>
+                                                    <span>2020</span>
+                                                    <h3>Certificate of Participation</h3>
+                                                    <h4>#BuildforSDG Challenge 2020 Class of Cohort 2</h4>
+                                                    <p>I got Certificate of Participation for my part in a team of 8 Developer building our Mobile clinic entry</p>
+                                                    <a href="https://storage.cloud.google.com/open-cert.appspot.com/alc/sdg/certs/fb/cohort1/sanniQudusOlanrewaju_cbb5727d-61d1-48c3-a1ad-aea957d699aa.pdf" target="_blank" class="btn-1 outer-shadow hover-in-shadow">View My Cert.</a>
+                                                </div>
+                                            </div>
+                                            <!-- timeline item end -->
+                                            <!-- timeline item start -->
+                                            <div class="timeline-item">                        
+                                                <div class="timeline-item-inner outer-shadow">
+                                                    <i class="fas fa-trophy icon"></i>
+                                                    <span>2020</span>
+                                                    <h3>Certificate of Participation</h3>
+                                                    <h4>Google Africa Developer Scholarship, 2020</h4>
+                                                    <p>I got Certificate of Participation for getting to the second stage of the program</p>
+                                                    <a href="https://adscerts.com/scholar/B4D8202DE3C248E6" target="_blank" class="btn-1 outer-shadow hover-in-shadow">View My Cert.</a>
+                                                </div>
+                                            </div>
+                                            <!-- timeline item end -->
+                                            <!-- timeline item start -->
+                                            <div class="timeline-item">
+                                                <div class="timeline-item-inner outer-shadow">
+                                                    <i class="fas fa-trophy icon"></i>
+                                                    <span>2018</span>
+                                                    <h3>Presidential Aspirant</h3>
+                                                    <h4>Department of Physics & Engineering Physics, OAU</h4>
+                                                    <p>I contested to be president of PEPSA (Physics and Engineering Physics Student Association) but came in first runner-up</p>
+                                                </div>
+                                            </div>
+                                            <!-- timeline item end -->
+                                            <!-- timeline item start -->
+                                            <div class="timeline-item">
+                                                <div class="timeline-item-inner outer-shadow">
+                                                    <i class="fas fa-trophy icon"></i>
+                                                    <span>2017 - 2018</span>
+                                                    <h3>Computer Coordinator</h3>
+                                                    <h4>Department of Physics & Engineering Physics, OAU</h4>
+                                                    <p>I was elected to be computer coordinator of PEPSA (Physics and Engineering Physics Student Association) in charge of all the computer assests of the Student Association, and I upgraded all our web pressence alongside other projects</p>
                                                 </div>
                                             </div>
                                             <!-- timeline item end -->
                                        
                                
-                        <!-- education ends -->
+                        <!-- achievement ends -->
                
         </section>
 
@@ -717,7 +789,7 @@
                     <!-- contact item start -->
                     <div class="contact-item">
                         <div class="contact-item-inner outer-shadow">
-                            <i class="fas fa-envelope" href="mailto:{slanre26@gmail.com}?subject={subject}&body={content}"></i>
+                            <a href="mailto:{slanre26@gmail.com}?subject=I have a job for you&body=Hello Lanre" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
                             <span>Email</span>
                             <p>slanre26@gmail.com</p>
                         </div>
@@ -727,7 +799,7 @@
                     <div class="contact-item">
                         <div class="contact-item-inner outer-shadow">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>Address</span>
+                            <span id="address">Address</span>
                             <p>Jamiu Raji Street, Ikotun, Lagos</p>
                         </div>
                     </div>
@@ -769,6 +841,10 @@
             </div>
         </section>
         <!-- Contact section ends -->
+
+        <div class="map">
+            hello
+        </div>
 
        <!-- Portfoli popup start -->
        <div class="pp portfolio-popup">

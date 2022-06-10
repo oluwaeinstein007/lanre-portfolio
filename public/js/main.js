@@ -378,3 +378,13 @@
              document.querySelector(".preloader").style.display="none";
          }, 600)
      })
+
+     
+
+        //on click of address id, open map
+        const addressToggler = document.querySelector(".address");
+        const map = document.querySelector(".map");
+        addressToggler.addEventListener("click", ()=>{
+            
+            document.querySelector(".map").classList.add("open");
+        })

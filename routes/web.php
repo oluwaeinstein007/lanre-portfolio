@@ -30,6 +30,10 @@ Route::get('/landing', function () {
     return view('landing');
 });
 
+Route::get('/locator', function () {
+    return view('locator');
+});
+
 Route::post('/', [NotifyEmailController::class, 'store']);
 
 //create route for landing page
