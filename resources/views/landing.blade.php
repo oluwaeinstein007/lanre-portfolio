@@ -708,7 +708,7 @@
                     <!-- contact item start -->
                     <div class="contact-item">
                         <div class="contact-item-inner outer-shadow">
-                            <i class="fas fa-phone"></i>
+                            <i class="fas fa-phone" href="tel:{08057322330}"></i>
                             <span>Phone</span>
                             <p>+2348057322330</p>
                         </div>
@@ -717,7 +717,7 @@
                     <!-- contact item start -->
                     <div class="contact-item">
                         <div class="contact-item-inner outer-shadow">
-                            <i class="fas fa-envelope"></i>
+                            <i class="fas fa-envelope" href="mailto:{slanre26@gmail.com}?subject={subject}&body={content}"></i>
                             <span>Email</span>
                             <p>slanre26@gmail.com</p>
                         </div>
