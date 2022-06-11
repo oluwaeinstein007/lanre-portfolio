@@ -78,32 +78,16 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.8977152248194!2d3.2814459!3d6.534600499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8fa32398c311%3A0x2cc35b43c9141ba6!2s18%20Jamiu%20Raji%20St%2C%20Egbe%2C%20Lagos!5e0!3m2!1sen!2sng!4v1616770518121!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </section>
+
+                <div class="close-map">
+                <a href="{{ url('/landing#address') }}"><span class="btn-1 outer-shadow hover-in-shadow">Close <i class="fas fa-xmark"></i> </span></a>
+                </div>
+
             </div>
         <!--- Map Content -->
         
 
-        <!-- Style switcher start -->
-
-        <div class="style-switcher outer-shadow">
-            <div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
-               <i class="fas fa-cog fa-spin"></i>
-            </div>
-            <div class="day-night s-icon outer-shadow hover-in-shadow">
-                <i class="fas"></i>
-            </div>
-            <h4>Themes</h4>
-            <div class="colors">
-               <span class="color-1" onclick="setActiveStyle('color-1')"></span>
-               <span class="color-2" onclick="setActiveStyle('color-2')"></span>
-               <span class="color-3" onclick="setActiveStyle('color-3')"></span>
-               <span class="color-4" onclick="setActiveStyle('color-4')"></span>
-               <span class="color-5" onclick="setActiveStyle('color-5')"></span>
-            </div>
-
-
-        </div>
-
-
+        
 
 
     </body>

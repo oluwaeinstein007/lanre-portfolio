@@ -1180,6 +1180,7 @@ About Section ------*/
 }
 .testimonial-section .testi-item img{
     max-width: 100px;
+    // max-height: 100px;
     display: inline-block;
     width: 100%;
     border-radius: 50%;
@@ -1479,7 +1480,7 @@ About Section ------*/
     width: 100%;
 }
 
-.illustrate{
+.illustrate, .close-map{
     position: relative;
     text-align: center;
     display: flex;
@@ -1493,11 +1494,19 @@ About Section ------*/
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 40px;
     padding: 10px;
 }
 .codr img{
-    width: 598px;
-    height: 280px;
+    width: 588px;
+    height: 260px;
+}
+.codr img:hover{
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+
+.close-map{
+    margin-top: -45px !important;
 }

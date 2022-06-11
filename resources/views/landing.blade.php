@@ -138,7 +138,7 @@
                         </div>
                     </div>
                     <div class="about-info">
-                        <p><span>Hi! My name is Lanre, I am a Developer</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur nihil repellendus nulla est quae suscipit harum quo dolore modi incidunt natus, quisquam officiis iste animi tempora quas. Dignissimos, nemo unde.</p>
+                        <p><span>Hi! My name is Lanre, I am a Fullstack Software Developer</span> with over 2 years professional experience writing building Mobile and Web Applications with clean and easy to maintain while also managing launched project. <br> I’m single and young (in my 20’s), I have an educational background in Physics. <br> I’m  based in Lagos, the commercial center of Nigeria, but I'm open to working remotely/on-site, freelance/full-time for both local and international clients.</p>
                         <a href="{{ asset('../pictures/cv.docx') }}" class="btn-1 outer-shadow hover-in-shadow">Download CV</a>
                         <a href="#contact" class="link-item btn-1 outer-shadow hover-in-shadow">Hire Me</a>
                         <div class="codr"><img src="../pictures/MWL.svg" alt="testimonial"></div>
@@ -270,7 +270,7 @@
                                                 <div class="timeline-item-inner outer-shadow">
                                                     <i class="fas fa-briefcase icon"></i>
                                                     <span>July, 2020 - Present</span>
-                                                    <h3>Freelancing Fullstack Web/Mobile Dev.</h3>
+                                                    <h3>L'Phi Hub Freelancing Fullstack Web/Mobile Dev.</h3>
                                                     <h4>Al-Faruq, Nigeria. Noir labs, US. GoAhead Homes, UK</h4>
                                                     <p>I build a complete E-Learning App with payment portal for Al Faruq college in 2020 during the lockdown, worked on the Noir lab's noirportal project, and built GoAhead Homes Web. App.</p>
                                                 </div>
@@ -319,7 +319,7 @@
                                                     <h3>BSc. Engineering Physics</h3>
                                                     <h4>Obafemi Awolowo University, Nigeria</h4>
                                                     <p>I studied Engineering Physics, a 4 years course, but specialized in theoretical physics, getting trained in Nuclear physics, Astrophysics, Mathematical physics, Material Science, Solidstates, Optics, Relativity, Quantum mechanics, Electromagnetism and Thermodynamics</p>
-                                                    <a href="{{ asset('../pictures/cv.docx') }}" class="btn-1 outer-shadow hover-in-shadow">Download My Thesis</a>
+                                                    <a href="{{ asset('../pictures/thesis.pdf') }}" class="btn-1 outer-shadow hover-in-shadow">View My Thesis</a>
                                                 </div>
                                             </div> 
                                             </div></div></div></div>
@@ -331,6 +331,7 @@
                         <!-- achievement start -->
                         <div class="row">
                             <div class="achievement tab-content">
+                            <div class="illustrate"><img src="../pictures/achievement.svg" alt="testimonial"></div>
                                 <div class="row">
                                     <div class="timeline">
                                         <div class="row">
@@ -726,29 +727,32 @@
                             <div class="testi-slider-container">
                                 <!-- testi item start -->
                                 <div class="testi-item active">
-                                    <img src="../pictures/propix.jpeg" alt="testimonial">
+                                    <img src="../pictures/Eleruja.jpeg" alt="testimonial">
                                     <i class="fas fa-quote-left left"></i>
                                     <i class="fas fa-quote-right right"></i>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nesciunt totam consequuntur fuga dolorum sit accusantium optio minus doloremque iusto, tempora culpa nobis ducimus asperiores sapiente reprehenderit similique ut quis.</p>
+                                    <p>Lanre is a great individual who is professional and very easy to work with. He makes himself available to his client. He takes the project given as his own and always offer solutions to any issues at hand.</p>
                                     <span>Emmanuel Eleruja</span>
+                                    <p>CEO, Balaga</p>
                                 </div>
                                 <!-- testi item end -->
                                 <!-- testi item start -->
                                 <div class="testi-item">
-                                    <img src="../pictures/propix.jpeg" alt="testimonial">
+                                    <img src="../pictures/Segun.jpeg" alt="testimonial">
                                     <i class="fas fa-quote-left left"></i>
                                     <i class="fas fa-quote-right right"></i>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nesciunt totam consequuntur fuga dolorum sit accusantium optio minus doloremque iusto, tempora culpa nobis ducimus asperiores sapiente reprehenderit similique ut quis.</p>
-                                    <span>Emmanuel Momoh</span>
+                                    <p>Lanre is a self driven Fullstack developer which I have had the opportunity of working with on certain projects, full of life and ready to find solutions when stuck.</p>
+                                    <span>Segun Akanbi</span>
+                                    <p>Team Lead, Fullstack Dev.</p>
                                 </div>
                                 <!-- testi item end -->
                                 <!-- testi item start -->
                                 <div class="testi-item ">
-                                    <img src="../pictures/propix.jpeg" alt="testimonial">
+                                    <img src="../pictures/EmmaMomoh.jpeg" alt="testimonial">
                                     <i class="fas fa-quote-left left"></i>
                                     <i class="fas fa-quote-right right"></i>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nesciunt totam consequuntur fuga dolorum sit accusantium optio minus doloremque iusto, tempora culpa nobis ducimus asperiores sapiente reprehenderit similique ut quis.</p>
-                                    <span>Segun Akanbi</span>
+                                    <span>Emmanuel Momoh</span>
+                                    <p>Team Lead, Tramango</p>
                                 </div>
                                 <!-- testi item end -->
                                 <!-- testi item start -->
@@ -793,17 +797,17 @@
                     <!-- contact item start -->
                     <div class="contact-item">
                         <div class="contact-item-inner outer-shadow">
-                            <a href="mailto:{slanre26@gmail.com}?subject=I have a job for you&body=Hello Lanre" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
+                            <a href="mailto:slanre26@gmail.com?subject=I have a job for you&body=Hello Lanre" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
                             <span>Email</span>
-                            <p>slanre26@gmail.com</p>
+                            <a href="mailto:slanre26@gmail.com?subject=I have a job for you&body=Hello Lanre" target="_blank" rel="noopener noreferrer"><p>slanre26@gmail.com</p></a>
                         </div>
                     </div>
                     <!-- contact item end -->
                     <!-- contact item start -->
-                    <div class="contact-item">
+                    <div class="contact-item" id="address">
                         <div class="contact-item-inner outer-shadow">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span id="address">Address</span>
+                        <a href="{{ url('/locator') }}"><i class="fas fa-map-marker-alt"></i></a>
+                            <a href="{{ url('/locator') }}"><span>Address</span></a>
                             <p>Jamiu Raji Street, Ikotun, Lagos</p>
                         </div>
                     </div>
