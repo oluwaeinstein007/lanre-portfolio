@@ -1719,3 +1719,61 @@ About Section ------*/
     max-width: 50%;
   }
 }
+.map {
+  display: none;
+}
+
+.map.open {
+  display: block;
+}
+
+.location {
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+}
+
+.location div {
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-content: center;
+  padding: 10px 10px;
+}
+
+.location iframe {
+  width: 100%;
+}
+
+.illustrate, .close-map {
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.codr {
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+.codr img {
+  width: 588px;
+  height: 260px;
+}
+
+.codr img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.close-map {
+  margin-top: -45px !important;
+}

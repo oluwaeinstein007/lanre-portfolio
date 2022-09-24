@@ -1,4 +1,7 @@
 <?php
+if (!(App::environment('local'))) {
+    URL::forceScheme('https');
+}
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NotifyEmailController;
@@ -25,6 +28,10 @@ Route::get('/', function () {
 
 Route::get('/landing', function () {
     return view('landing');
+});
+
+Route::get('/locator', function () {
+    return view('locator');
 });
 
 Route::post('/', [NotifyEmailController::class, 'store']);
